@@ -1,0 +1,22 @@
+import java.awt.Component;
+import javax.swing.JOptionPane;
+
+public class Addition {
+    public Addition() {
+    }
+
+    public static void main(String[] args) {
+        String firstNumber = JOptionPane.showInputDialog("输入第一个数");
+        String secondNumber = JOptionPane.showInputDialog("输入第二个数");
+        String thirdNumber = JOptionPane.showInputDialog("输入第三个数");
+        String fourthNumber = JOptionPane.showInputDialog("输入第四个数");
+        int number1 = Integer.parseInt(firstNumber);
+        int number2 = Integer.parseInt(secondNumber);
+        int number3 = Integer.parseInt(thirdNumber);
+        int number4 = Integer.parseInt(fourthNumber);
+        int sum = number1 + number2 + number3 + number4;
+        int sum1 = number1 * number2 * number3 * number4;
+        JOptionPane.showMessageDialog((Component)null, "相加后的结果是:" + sum + ";相乘后的结果是：" + sum1, "结果", -1);
+        System.exit(0);
+    }
+}
