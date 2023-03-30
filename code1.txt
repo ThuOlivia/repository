@@ -1,0 +1,54 @@
+package com.hpe.java;
+
+public class Demo2 {undefined
+
+public static void main(String arg[]) {undefined
+
+
+byte num1;
+
+num1=100;
+System.out.println("num1="+num1);
+
+num1=111;
+
+System.out.println("num1="+num1);
+
+byte num2=109;
+
+System.out.println("num2="+num2);
+
+
+long num3=3456;
+
+System.out.println("num3="+num3);
+
+double num4=123;
+
+System.out.println("num4="+num4);
+
+float num5=1234f;
+
+System.out.println("num5="+num5);
+
+char c='a';
+
+System.out.println("c="+c);
+
+boolean b=true;
+
+short s=123;
+
+int num=s;
+
+System.out.println("num="+num);
+
+int i=345;
+
+short s1=(short)i;
+
+System.out.println(s1);
+
+}
+
+}
